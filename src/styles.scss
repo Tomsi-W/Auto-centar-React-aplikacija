@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar, .footer {
+  background: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.locations, .cars {
+  flex: 1;
+  border: 1px solid gray;
+  padding: 10px;
+}
